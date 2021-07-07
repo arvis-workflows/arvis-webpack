@@ -1,0 +1,39 @@
+{
+  "name": "arvis-webpack",
+  "version": "0.0.1",
+  "description": "Arvis workflow for Webpack documentation",
+  "license": "MIT",
+  "repository": "prashantpalikhe/arvis-webpack",
+  "author": {
+    "name": "Prashant Palikhe",
+    "email": "prashpal09@gmail.com",
+    "url": "twitter.com/PrashantPalikhe"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "arvis-workflow.json"
+  ],
+  "keywords": [
+    "arvis",
+    "workflow",
+    "arvish"
+  ],
+  "dependencies": {
+    "arvish": ">=0.4.6",
+    "algoliasearch": "^3.34.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
